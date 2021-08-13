@@ -1,17 +1,37 @@
-{% extends '/rupalimishra/templates/base.html' %}
-{% load static %}
+<!DOCTYPE html>
+<html >
 
-{% block page_content %}
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-        <div class="center">
-        <a class="navbar-brand" href="{% url '' %}">Rupali Mishra's Portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        </div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Rupali Mishra</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Fredoka+One&family=Unkempt:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="avenger/static/libs/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="avenger/static/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="avenger/static/css/styles.css" type="text/css" >
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
+    <header class = "sticky">
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+    </header>
+    <div id="lead">
+      <div id="particles-js">
+        <div id="lead-content">
 
-</nav>
-{% endblock %}
+            <a href="avenger/about.html">Rupali Mishra's Portfolio</a>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
