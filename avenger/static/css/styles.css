@@ -1,0 +1,266 @@
+/*!
+    Title: Dev Portfolio Template
+    Version: 1.1.3
+    Last Change: 03/25/17
+    Author: Ryan Fitzgerald
+    Repo: https://github.com/RyanFitzgerald/devportfolio-template
+    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
+
+    Description: This file contains all the styles associated with the page
+    that don't come from third party libraries. This file gets compiled using
+    Gulp and send to the /css folder which is then loaded on the page.
+*/body{font-family:'Lato', sans-serif;font-size:16px}body.active{overflow:hidden;z-index:-1}.no-js #experience-timeline>div{background:#fff;padding:10px;margin-bottom:10px;border:1px solid #dcd9d9}.no-js #experience-timeline>div h3{font-size:1.5em;font-weight:300;color:#374054;display:inline-block;margin:0}.no-js #experience-timeline>div h4{font-size:1.2em;font-weight:300;color:#7e8890;margin:0 0 15px 0}.no-js #experience-timeline>div p{color:white;font-size:0.9em;margin:0}.no-js #experience-timeline:before,.no-js #experience-timeline:after{content:none}@-webkit-keyframes dropHeader{0%{-webkit-transform:translateY(-100%);transform:translateY(-100%)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes dropHeader{0%{-webkit-transform:translateY(-100%);transform:translateY(-100%)}100%{-webkit-transform:translateY(0);transform:translateY(0)}}header{position:absolute;top:0;left:0;right:0;z-index:5;-webkit-animation-name:dropHeader;animation-name:dropHeader;-webkit-animation-iteration-count:1;animation-iteration-count:1;-webkit-animation-timing-function:ease;animation-timing-function:ease;-webkit-animation-duration:0.75s;animation-duration:0.75s}header ul{background:none;text-align:right;padding:10px;margin:0}header li{font-size:1.2em;display:inline-block}header a{display:block;color:#f2f2f5;padding:10px}header a:hover{color:#7a7a7a;text-decoration:none;background:rgba(255,255,255,0);border-radius:4px}header a:focus{color:#3C3C3C;text-decoration:none}header.active{display:block}header.sticky{position:fixed;z-index:999}#menu.active{display:block}#mobile-menu-open{display:none;cursor:pointer;position:fixed;right:15px;top:10px;color:#3C3C3C;font-size:1.5em;z-index:20;padding:0 7px;border-radius:4px;background:#fff}#mobile-menu-close{display:none;text-align:right;width:100%;background:#fff;font-size:1.5em;padding-right:15px;padding-top:10px;cursor:pointer;color:#3C3C3C}#mobile-menu-close span{font-size:0.5em;text-transform:uppercase}#mobile-menu-close i{vertical-align:middle}footer{padding:50px 0}.copyright{padding-top:20px}.copyright p{margin:0;color:#74808a}.top{text-align:center}.top span{cursor:pointer;display:block;margin:15px auto 0 auto;width:35px;height:35px;border-radius:50%;border:3px solid #b9bfc4;text-align:center}.top i{color:#FFFFFF}.social{text-align:right}.social ul{margin:5px 0 0 0;padding:0}.social li{display:inline-block;font-size:1.25em;list-style:none}.social a{display:block;color:#74808a;padding:10px}.social a:hover{color: #FFFFFF}.btn-rounded-white{animation-delay: 0s ;display:inline-block;color:white;padding:15px 25px;border:3px dotted #B664FC;border-radius:30px;transition: 0.5s}.btn-rounded-white:hover{color: white;background:#B664FC ;text-decoration: wavy}.shadow{box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24)}.shadow-large{box-shadow:0 3px 6px rgba(0,0,0,0.08),0 3px 6px rgba(0,0,0,0.15)}.heading{position:relative;display:inline-block;font-size:2em;font-weight:300;margin:0 0 30px 0}.heading:after{position:absolute;content:'';top:100%;height:1px;width:50px;left:0;right:0;margin:0 auto;background:#FFFFFF}.background-alt{background:black}#lead{position:relative;height:100vh;min-height:500px;max-height:1080px;background:url(../img/rupali-homepage.png);background-size:cover;padding:15px;overflow:hidden}#particles-js{position:relative;float: contour;width:100%;height:100%;background-repeat:no-repeat;background-size:cover;background-position:50% 50%}no-particles-js{position:relative;display:none}#no-lead-content{display:none;position:absolute;z-index:10;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);text-align:center}#no-lead-content h1,#no-lead-content h2{margin:0}#no-lead-content h1{color:#fff;font-weight:900;font-size:5em;text-transform:uppercase;letter-spacing:0.05em;line-height:0.9em;margin-top:70px}#no-lead-content h2{color:#d3d3d3;font-weight:500;font-size:2.25em;margin-bottom:15px;margin-top:-130px}#no-lead-content h4{color:#d3d3d3;font-weight:500;font-size:1.0em;margin-bottom:15px}#lead-content{position:absolute;z-index:10;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);text-align:center}#lead-content h1,#lead-content h2{margin:40px}#lead-content h1{color:#5C5CFF;font-weight:900;font-size:5.5em;text-transform:uppercase;letter-spacing:0.05em;line-height:0.9em}#lead-content h2{color:#f5f7f5;font-weight:500;font-size:2.25em;margin-bottom:15px}#lead-content #lead-overlay{position:absolute;height:100%;width:0;top:0;right:0;bottom:0;left:0;background:rgba(255,255,255,0.1);z-index:1}#lead-down{position:absolute;left:0;right:0;width:100%;text-align:center;z-index:10;bottom:15px;color:#fff}#lead-down span{cursor:pointer;display:block;margin:0 auto;width:55px;height:55px;border-radius:50%;border:0 solid #5C5CFF;text-align:center}#lead-down i{-webkit-animation:pulsate 1.5s ease;animation:pulsate 1.5s ease;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;padding-top:0;font-size:4em;font-weight:100;color:#5C5CFF}#lead-down @-webkit-keyframes pulsate{0%{-webkit-transform:scale(1, 1);transform:scale(1, 1)}50%{-webkit-transform:scale(1.2, 1.2);transform:scale(1.2, 1.2)}100%{-webkit-transform:scale(1, 1);transform:scale(1, 1)}}@keyframes pulsate{0%{-webkit-transform:scale(1, 1);transform:scale(1, 1)}50%{-webkit-transform:scale(1.2, 1.2);transform:scale(1.2, 1.2)}100%{-webkit-transform:scale(1, 1);transform:scale(1, 1)}}#about{padding:75px 15px;background: black; border-bottom:1px solid #dcd9d9}#about h2{color:white}p{color:#C0C0C0;font-family: "Courier New", Courier, monospace;margin:0}#experience{padding:50px 15px;text-align:center;border-bottom:1px solid #dcd9d9}#experience h2{color: white}#experience h4{color: #5C5CFF}#experience-timeline{margin:30px auto 0 auto;position:relative;max-width:1000px}#experience-timeline:before{position:absolute;content:'';top:0;bottom:0;left:303px;right:auto;height:100%;width:3px;background:#5C5CFF;z-index:0}#experience-timeline:after{position:absolute;content:'';width:3px;height:40px;background:black;top:100%;left:303px}.vtimeline-content{margin-left:350px;background:black;border:1px solid #e6e6e6;padding:15px;border-radius:3px;text-align:left}.vtimeline-content h3{font-size:1.5em;font-weight:300;color:white;display:inline-block;margin:0}.vtimeline-content h4{font-size:1.2em;font-weight:300;color:#7e8890;margin:0 0 15px 0}.vtimeline-content p{color:#74808a;font-size:0.9em;margin:0}.vtimeline-point{position:relative;display:block;vertical-align:top;margin-bottom:30px}.vtimeline-icon{position:relative;color:black;width:50px;height:50px;background:#5C5CFF;border-radius:50%;float:left;z-index:99;margin-left:280px}.vtimeline-icon i{display:block;font-size:2em;margin-top:10px}.vtimeline-date{width:260px;text-align:right;position:absolute;left:0;top:10px;font-weight:300;color:#74808a}#education{padding:50px 15px 20px 15px;border-bottom:1px solid #dcd9d9;text-align:center; background:black}#education h2{color:white;margin-bottom:50px; background: black}.education-block{max-width:700px;margin:0 auto 30px auto;padding:15px;border:1px solid #dcd9d9;text-align:left}.education-block h3{font-weight:500;float:left;margin:0;color:white}.education-block span{color:#74808a;float:right}.education-block h4{color:#74808a;clear:both;font-weight:500;margin:0 0 2px 0}.education-block h5{font-size:1.0em;font-weight:300;color:#7e8890;margin:0 0 15px 0}.education-block p,.education-block ul{margin:0;color:white;font-size:0.9em}.education-block ul{padding:0 0 0 15px}#projects{padding:50px 15px;border-bottom:1px solid #dcd9d9;text-align:center}#projects h2{color:white;margin-bottom:50px}.project{position:relative;max-width:900px;margin:0 auto 30px auto;overflow:hidden;background:black;border-radius:4px}.project-image{float:left;}.project-info{position:absolute;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);margin-left:300px;padding:15px}.project-info h3{font-size:1.5em;font-weight:300;color:white;margin:0 0 15px 0}.project-info h4{font-size:0.9em;margin:-10px 0 10px 0;color:#74808a;font-weight:400}.project-info p{color:#74808a;margin:10px 10px 15px 10px;font-size:0.9em;text-align:justify}#skills{padding:50px 15px;text-align:center;background:black;}#skills h2{color:#fff;margin-bottom:50px}#skills ul{display:block;margin:0 auto;padding:0;max-width:800px}#skills li{display:inline-block;margin:7px;padding:5px 10px;color:black;background:#8E2BE2;list-style:none;cursor:default;font-size:1.2em}#contact{padding:50px 15px;background:black;text-align:center}#contact h2{margin:0 0 15px 0;color:#fff;font-weight:500}#contact-form{max-width:500px;margin:0 auto}#contact-form input,#contact-form textarea{display:block;width:100%;padding:10px;border-radius:4px;border:none;margin-bottom:10px;background:#161616;color:#fff;transition:.5s ease all}#contact-form input::-webkit-input-placeholder,#contact-form textarea::-webkit-input-placeholder{color:#fff}#contact-form input:-moz-placeholder,#contact-form textarea:-moz-placeholder{color:#fff;opacity:1}#contact-form input::-moz-placeholder,#contact-form textarea::-moz-placeholder{color:#fff;opacity:1}#contact-form input:-ms-input-placeholder,#contact-form textarea:-ms-input-placeholder{color:#fff}#contact-form input:focus,#contact-form textarea:focus{outline:none;background:#000}#contact-form textarea{height:150px;resize:none}#contact-form button{display:block;width:100%;background:#fff;border-radius:4px;padding:5px 10px;border:none;color:#3C3C3C;font-weight:700;box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);transition:.5s ease all}#contact-form button:hover{box-shadow:0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23)}@media only screen and (max-width: 750px){#experience-timeline:before,#experience-timeline:after{left:23px}.vtimeline-date{width:auto;text-align:left;position:relative;margin-bottom:15px;display:block;margin-left:70px}.vtimeline-icon{margin-left:0}.vtimeline-content{margin-left:70px}}@media only screen and (max-width: 992px){#particles-js{display:none}no-particles-js{display:block}#lead{height:auto;min-height:auto;max-height: none;padding:100px 15px}#no-lead-content{display:block;position:relative;-webkit-transform:none;transform:none;left:auto;top:auto}#no-lead-content h1{font-size:3em;margin-bottom:150px}#no-lead-content h2{font-size:1.75em}#about{text-align:center}#about p{text-align:left}}@media only screen and (max-width: 768px){header{position:fixed;display:none;z-index:999;-webkit-animation:none;animation:none;bottom:0;height:100%}#mobile-menu-open,#mobile-menu-close{display:block}#menu{height:100%;overflow-y:auto;box-shadow:none;border-radius:0;width:100%}#menu li{display:block;margin-bottom:10px}#no-lead-content{position:relative;-webkit-transform:none;transform:none;left:auto;top:auto}#no-lead-content h1{font-size:2em}#no-lead-content h2{font-size:1.3em}#no-lead-content a{padding:10px 20px}#lead-down{display:none}.education-block h3,.education-block span{float:none}.project-image{display:none}.project-info{position:relative;margin:0;top:auto;-webkit-transform:none;transform:none}footer{text-align:center}.social{text-align:center}}@media only screen and (max-width: 480px){#no-lead-content{position:relative;-webkit-transform:none;transform:none;left:auto;top:auto}#no-lead-content h1{font-size:1.5em}#no-lead-content h2{font-size:1em}#no-lead-content a{font-size:0.9em;padding:5px 10px}}
+
+/* DEMO-SPECIFIC STYLES */
+.project-image img {
+float:right;
+
+margin-right: 100px;
+height:290px;
+  width:290px;
+  border-radius: 100%
+}
+
+.project-image1 img {
+  float:left;
+  margin-left:0;
+height:290px;
+  width:290px;
+  border-radius: 100%
+
+
+}
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #5C5CFF; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret 0s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.project-info ul{margin:0;text-align: center;color:white;font-size:.9em}.project-info ul{padding:0 0 0 15px}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: gray; }
+}
+ul {
+  text-align: center;
+}
+
+
+li {
+  text-align: left;
+}
+
+ul li { padding: 10px 0; }
+
+.typewriter h2{
+
+overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid gray;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation:
+    typing 6.5s steps(40, end),
+    blink-caret .5s step-end infinite;
+}
+
+
+@font-face {
+  font-family: 'Chalkduster';
+    src:  url('/avenger/static/fonts/Chalkduster.ttf.woff') format('opentype'),
+    url("/avenger/static/fonts/Chalkduster.ttf.woff") format('woff'),
+    url('/avenger/static/fonts/Chalkduster.ttf.svg#Chalkduster') format('svg'),
+    url('/avenger/static/fonts/Chalkduster.ttf.eot');
+    /*url('/avenger/fonts/Chalkduster.eot?#iefix') format('embedded-opentype');*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+
+font-family: 'Cabin Sketch', cursive;
+}
+h2{
+  animation: typewriter 4s steps(60, end);
+}
+
+h2.skilly{
+  display:inline-block;margin:7px;padding:5px 10px;color:white;background:black;
+}
+h3{
+  font-family: 'American Typewriter', serif;
+  color: white;
+}
+h3.skillhead{
+  font-family: 'Roboto', fantasy;
+  color:white
+}
+h4{
+
+  color: #5C5CFF;
+}
+.logo{
+    width: 100px;
+
+}
+
+.logo img{
+    margin: auto 700px;
+    margin-top: -220px;
+    float: left;
+    width: 183px;
+    height: 160px;
+    border-radius: 100%
+}
+
+.logo1{
+    width: 100px;
+
+}
+
+.logo1 img{
+    margin: auto 700px;
+    margin-top: -270px;
+    float: left;
+    width: 183px;
+    height: 160px;
+    border-radius: 100%
+}
+
+.logo2{
+    width: 100px;
+
+}
+
+.logo2 img{
+    margin: auto 700px;
+    margin-top: -230px;
+    float: left;
+    width: 183px;
+    height: 160px;
+    border-radius: 100%
+}
+
+.logo3{
+    width: 150px;
+
+}
+
+.logo3 img{
+  margin: auto 750px;
+  margin-top: -200px;
+  float: left;
+    width: 280px;
+    height: 220px;
+    border-radius: 100%
+}
+
+.logo6{
+    width: 100px;
+
+}
+
+.logo6 img{
+    margin: auto 800px;
+    margin-top: -270px;
+    float: left;
+    width: 183px;
+    height: 160px;
+    border-radius: 100%
+}
+
+a.buttonBack {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    width: 140px;
+    height: 30px;
+    background: #28BAD5;
+    text-decoration: wavy;
+    border:3px #28BAD5
+}
+a.buttonBack:hover{
+     background: #58E1FA;
+     text-decoration: wavy;
+     border:3px dotted #58E1FA;
+
+}
+
+a.buttonBack1 {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    width: 140px;
+    height: 30px;
+    background: #B3D177 ;
+    text-decoration: wavy;
+    border:3px dotted #B3D177 ;
+}
+a.buttonBack1:hover{
+     background: #BEDD7F;
+     text-decoration: wavy;
+     border:3px dotted #BEDD7F;
+
+}
+
+a.buttonBack2 {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    width: 140px;
+    height: 30px;
+    background: #D9CB1E;
+    text-decoration: wavy;
+    border:3px dotted #D9CB1E ;
+}
+a.buttonBack2:hover{
+     background: #EFE12D;
+     text-decoration: wavy;
+     border:3px dotted #EFE12D;
+
+}
+
+a.buttonBack3 {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-align:center;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    width: 140px;
+    height: 30px;
+    background: #595202;
+    text-decoration: wavy;
+    border:3px dotted #595202;
+}
+a.buttonBack3:hover{
+     background: #7F760F;
+     text-decoration: wavy;
+     border:3px dotted #7F760F;
+
+}

@@ -93,7 +93,6 @@ body {
   }
 }
 
-// No JS styles
 .no-js {
   #experience-timeline {
     > div {
@@ -145,7 +144,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  // text-align: center;
+  text-align: center;
   z-index: 5;
   animation-name: dropHeader;
   animation-iteration-count: 1;
@@ -153,14 +152,10 @@ header {
   animation-duration: 0.75s;
 
   ul {
-    // display: inline-block;
-    // background: rgba(#ffffff, 0.8);
     background: none;
     text-align: right;
     padding: 10px;
     margin: 0;
-    // border-bottom-right-radius: 4px;
-    // border-bottom-left-radius: 4px;
   }
 
   li {
@@ -353,8 +348,7 @@ footer {
   height: 100vh;
   min-height: 500px;
   max-height: 1080px;
-  background: url(../static/img/name.png);
-  // background:#000;
+  background: url(../img/rupali-homepage.png);
   background-size: cover;
   padding: 15px;
   overflow: hidden;
@@ -808,8 +802,8 @@ no-particles-js {
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
-    color: $heading;
-    background: darken($background-alt, 5%);
+    color: #5C5CFF;
+    background: #5C5CFF;
     list-style: none;
     cursor: default;
     font-size: 1.2em;

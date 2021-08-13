@@ -55,7 +55,7 @@ ROOT_URLCONF = 'rupalimishra.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        "DIRS": ["rupalimishra/templates/"],
+        "DIRS": ["rupalimishra/templates/", "rupalimishra/", "avenger/", "avenger/templates/"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
