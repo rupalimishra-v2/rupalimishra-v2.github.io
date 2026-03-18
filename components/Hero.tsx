@@ -41,7 +41,7 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up animation-delay-600">
           <a
-            href="/resume/Rupali_Resume.pdf"
+            href="/resume/Rupali_Resume.pdf?v=2026-03-18"
             download
             className="px-8 py-4 rounded-lg bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-500 hover:to-secondary-500 text-white font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-primary-500/50"
           >

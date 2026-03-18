@@ -69,7 +69,7 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="/resume/Rupali_Resume.pdf"
+              href="/resume/Rupali_Resume.pdf?v=2026-03-18"
               download
               className="px-4 py-2 rounded-lg bg-gradient-to-r from-primary-600 to-secondary-600 hover:from-primary-500 hover:to-secondary-500 text-white font-medium transition-all duration-300 transform hover:scale-105"
             >
@@ -112,7 +112,7 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="/resume/Rupali_Resume.pdf"
+              href="/resume/Rupali_Resume.pdf?v=2026-03-18"
               download
               className="block px-3 py-2 rounded-md text-base font-medium bg-gradient-to-r from-primary-600 to-secondary-600 text-white text-center mt-4"
             >
