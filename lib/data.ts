@@ -4,7 +4,6 @@ export const personalInfo = {
   tagline: "Building Intelligent Systems with RAGs & AI Agents",
   description: "Specializing in Agentic AI Development, Retrieval-Augmented Generation, and scalable AI-powered solutions. Passionate about solving complex problems and building innovative software.",
   email: "rupali.mishra304@gmail.com",
-  phone: "+91 9952592200",
   location: "India",
   github: "https://github.com/rupalimishra-v2",
   linkedin: "https://www.linkedin.com/in/rupalimishra-v2/",

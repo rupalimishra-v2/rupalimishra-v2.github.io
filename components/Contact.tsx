@@ -32,7 +32,7 @@ export default function Contact() {
       </div>
 
       <div className="max-w-4xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+        <div className="max-w-md mx-auto mb-12">
           {/* Email Card */}
           <div className="card-gradient rounded-lg p-6 hover:scale-[1.02] transition-transform duration-300">
             <div className="flex items-start gap-4">
@@ -54,32 +54,6 @@ export default function Contact() {
                   className="mt-2 text-sm text-dark-500 hover:text-primary-500 transition-colors duration-200"
                 >
                   {copied === 'email' ? '✓ Copied!' : 'Copy email'}
-                </button>
-              </div>
-            </div>
-          </div>
-
-          {/* Phone Card */}
-          <div className="card-gradient rounded-lg p-6 hover:scale-[1.02] transition-transform duration-300">
-            <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-full bg-gradient-to-br from-secondary-500 to-accent-500 flex items-center justify-center flex-shrink-0">
-                <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-              </div>
-              <div className="flex-1">
-                <h3 className="text-lg font-semibold text-white mb-1">Phone</h3>
-                <a
-                  href={`tel:${personalInfo.phone}`}
-                  className="text-dark-300 hover:text-primary-400 transition-colors duration-200"
-                >
-                  {personalInfo.phone}
-                </a>
-                <button
-                  onClick={() => copyToClipboard(personalInfo.phone, 'phone')}
-                  className="mt-2 text-sm text-dark-500 hover:text-primary-500 transition-colors duration-200"
-                >
-                  {copied === 'phone' ? '✓ Copied!' : 'Copy number'}
                 </button>
               </div>
             </div>
