@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Rupali Mishra | AI Engineer & Full Stack Developer',
   description: 'Software Engineer specializing in RAGs, AI Agents, and Agentic AI Development. Building intelligent systems with Python, AWS, PostgreSQL, and modern web technologies.',
+  other: {
+    'cache-control': 'no-cache, no-store, must-revalidate',
+  },
   keywords: [
     'AI Engineer',
     'RAG',
