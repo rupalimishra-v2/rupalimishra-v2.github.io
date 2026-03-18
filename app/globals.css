@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark-950 text-dark-50;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-500 via-secondary-500 to-accent-500 bg-clip-text text-transparent;
+  }
+
+  .card-gradient {
+    @apply bg-gradient-to-br from-dark-800 to-dark-900 border border-dark-700/50 hover:border-primary-500/50 transition-all duration-300;
+  }
+}
+
+@layer utilities {
+  .animation-delay-200 {
+    animation-delay: 0.2s;
+  }
+  .animation-delay-400 {
+    animation-delay: 0.4s;
+  }
+  .animation-delay-600 {
+    animation-delay: 0.6s;
+  }
+  .animation-delay-800 {
+    animation-delay: 0.8s;
+  }
+}
